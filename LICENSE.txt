@@ -6,7 +6,7 @@ This is a legal agreement between you (either an individual or a single entity) 
 Ownership
 the repository contents are protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. the repository contents are licensed, not sold. all title and copyrights in and to the repository contents (including but not limited to any images, photographs, animations, video, audio, music, text, and code held in the repository), the accompanying documentation, and any copies of the repository contents are owned by Nick.
 
-License grant
+License Grant
 Nick grants you a limited, non-exclusive, non-transferable, and revocable license to use the repository contents for personal use only. you are not permitted to modify, distribute, or reverse-engineer the repository without prior written consent.
 
 Restrictions
