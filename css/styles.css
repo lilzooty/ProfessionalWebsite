@@ -1,4 +1,15 @@
 * {
     font-family: 'Courier New', Courier, monospace;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+#headspace {
+    text-align: center;
+}
+
+#resumeDiv {
+    text-align: center;
+
+}
+#resumePic {
+    border: 5px solid #0000006f;
 }

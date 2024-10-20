@@ -4,28 +4,56 @@
     <head>
         <title>My First Website</title>
         <link rel = "icon" type = "image/jpg" href = "../images/godenel.png"/>
-        <link rel = "stylesheet" type= "css" href = "../css/styles.css"/>   
+        <link rel = "stylesheet" type = "text/css" href="../css/styles.css"/>  
+        <script src="../js/myScript.js"></script> 
     </head>
     <body>
-        <h1>I'm Nick</h1>
-        <h2>Welcome to my website</h2> 
+        
+        <div id="headspace">
+            <h1>Nick's Homepage</h1>
+            <button onClick = "goHomePage()" style="font-size: 20; background-color:rgba(179, 0, 255, 0.443); border: 2; cursor: pointer;">Home</button>
+            <button onClick = "goProjectPage()" style="cursor: pointer; font-size: 20; background-color:rgba(0, 225, 255, 0.48); border: 2;">Projects</button>
+            <button onClick = "goResumePage()" style="font-size: 20; background-color:honeydew; border: 2; cursor: pointer;">Resume</button>
+            <button onClick = "goContactPage()" style="cursor: pointer; font-size: 20; background-color:papayawhip; border: 2;">Contact</button>
+        </div>
         <hr>
-        <button style="cursor: pointer; font-size: 20; background-color:papayawhip; border: 2;"> Hire Me</button>
-        <button onClick = "goResumePage()" style="font-size: 20; background-color:honeydew; border: 2; cursor: pointer;">My Resume</button>
+
+        <script>
+            function goHomePage() {
+                window.location.href = "index.html"
+            }
+        </script>
+        <script>
+            function goProjectPage() {
+                window.location.href = "projectPage.html"
+            }
+        </script>
 
         <script>
         function goResumePage(){ 
-            window.location.href = "ResumePage.html"
+            window.location.href = "resumePage.html"
         }
         </script>
 
-        <h3>About me:</h3>
-        <p>My name is Nick Kroop and I'm currently an undergraduate pursuing Software Development at the University of Utah</p>
-        <h4>Contact:</h4>
+        <script>
+            function goContactPage() {
+                window.location.href = "contactPage.html"
+            }
+        </script>
+        
+
+        <h3 >About me:</h3>
+        <p>My name is Nick Kroop and I'm currently an a 3rd year student pursuing a Bachelor's of Science in Software Development at the University of Utah.</p>
+        <p>In my free time I like to read books, play the guitar (both electric and acoustic), work on programming projects, and lift weights at the gym.</p>
+        <p>Throughout my academic career I have so fair gained a deep understanding of Unit Testing (primarily with JUnit), Pair Programming, Object-Oriented Programming, Data Structures, and Algorithms. As far as programming languages go, I have learned: HTML, CSS, Java, Python (and a little bit of C).</p>
+        <br>
+       
         <p>E-Mail: nickkroop@gmail.com</p>
         <p>Phone: 858-735-0472</p>
-        <p><a href="https://www.linkedin.com/in/nicholas-kroop-2368322a3/" target="_blank">LinkedIn</a></p>
-
-
+        <a href="https://www.linkedin.com/in/nicholas-kroop-2368322a3/" target="_blank">LinkedIn </a>
+        <br>
+        <br>
+        <a href="" target="_blank">GitHub</a>
+                
     </body>
 </html>
