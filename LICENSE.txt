@@ -1,18 +1,20 @@
 LICENSE.txt 
 ProfessionalWebsite proprietary license agreement
 
-This is a legal agreement between you (either an individual or a single entity) and Nicholas (Nick) Kroop for this repository, which includes all code, files, media, electronic documentation for the ProfessionalWebsite repository.
+This is a legal agreement between you (either an individual or a single entity) and Nicholas Kroop for this repository, which includes all code, files, media, electronic documentation for the ProfessionalWebsite repository.
 
 Ownership
-the repository contents are protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. the repository contents are licensed, not sold. all title and copyrights in and to the repository contents (including but not limited to any images, photographs, animations, video, audio, music, text, and code held in the repository), the accompanying documentation, and any copies of the repository contents are owned by Nick.
+The repository contents are protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. 
+The repository contents are licensed, not sold. all title and copyrights in and to the repository contents (including but not limited to any images, photographs, animations, video, audio, music, text, and code held in the repository), the accompanying documentation, and any copies of the repository contents are owned by Nicholas Kroop.
 
 License Grant
 Nick grants you a limited, non-exclusive, non-transferable, and revocable license to use the repository contents for personal use only. you are not permitted to modify, distribute, or reverse-engineer the repository without prior written consent.
 
 Restrictions
-you may not:
+You may not:
 modify, translate, reverse-engineer, decompile, disassemble, or create derivative works based on the repository,
 rent, lease, or lend the repository distribute or sublicense copies of the repository to others.
 
 Termination 
-without prejudice to any other rights, [your name/company] may terminate this agreement if you fail to comply with the terms and conditions of this agreement. in such an event, you must destroy all copies of the repository and all of its contents.
+Without prejudice to any other rights, [your name/company] may terminate this agreement if you fail to comply with the terms and conditions of this agreement.
+In such an event, you must destroy all copies of the repository and all of its contents.
