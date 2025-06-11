@@ -7,11 +7,11 @@
     <title>{{title}}</title>
 
     {% comment %} For Web Browser Icon {% endcomment %}
-    <link rel="icon" href="../static/images/godenel.png" type="image/jpg">
+    <link rel="icon" href="/static/images/godenel.png" type="image/jpg">
     {% comment %} For CSS Styling {% endcomment %}
-    <link rel="stylesheet" type ="text/css" href="../static/styles.css/"> 
+    <link rel="stylesheet" type ="text/css" href="/static/styles.css"> 
     {% comment %} For linking JavaScript functionality {% endcomment %}
-    <script src="../js/myScript.js"></script> 
+    {% comment %} <script src="../js/myScript.js"></script>  {% endcomment %}
 
     {% comment %} Below is to link the IBM Plex Sans and IBM Plex Mono Font {% endcomment %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,14 +21,13 @@
 </head>
 <header>
         <nav>
-            <h1>Nicholas Kroop</h1>
-            <div class="navLinks">
-                <a href="/">Home</a>
-                <a href="/projects">Projects</a>
-                <a href="/resume">Resume</a>
-                <a href="/contact">Contact</a>
+            <h1>Nicks Portfolio</h1>
+            {% comment %} <hr> {% endcomment %}
+            <div>
+            <a href="/skills">Skills</a>
+            <a href="/projects">Projects</a>
+            <a href="/contact">Contact</a>
             </div>
-            <hr>  
         </nav>
 </header>
 </html>

@@ -11,5 +11,5 @@ def projectsPage(request):
 def contactPage(request):
     return render(request, "contact.html")
 
-def qualificationsPage(request):
-    return render(request, "qualifications.html")
+def skillsPage(request):
+    return render(request, "skills.html")
