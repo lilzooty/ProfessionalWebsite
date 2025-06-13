@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import JsonResponse
 
 # Create your views here.
 
@@ -13,3 +14,6 @@ def contactPage(request):
 
 def skillsPage(request):
     return render(request, "skills.html")
+
+def ping(request):
+    return JsonResponse({'message': 'pong'})
